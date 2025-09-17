@@ -1,23 +1,13 @@
 import random
 import time
 
-a = '''       THIS IS PASSGEN A PROGRAM DESIGNED TO GENERATE PASSWORD FROM YOUR DESIRED LENGTH 
-       USING DIFFERENT CHARACTERS AND SYMBOLS TO GENERATE STRONG PASSWORDS TO USE LATER
-       CREATED BY REDS009\n'''
+a = '''THIS IS PASSGEN A PROGRAM DESIGNED TO GENERATE PASSWORD FROM YOUR DESIRED LENGTH 
+USING DIFFERENT CHARACTERS AND SYMBOLS TO GENERATE STRONG PASSWORDS TO USE LATER
+CREATED BY REDS009\n'''
 print(a)
 current_version = "0.0.1"
-check_version = str(input("[*] TYPE VERSION TO GET THE CURRENT VERSION OF PASSGEN OR TYPE EXIT TO CLOSE THE PROGRAM:     "))
 
-if check_version == 'version' or 'VERSION':
-    print(f"THE CURRENT VERSION OF PASSGEN IS '{current_version}'")
-
-elif check_version == 'exit' or 'EXIT':
-    print("CLOSING THE PROGRAM...")
-    time.sleep(2)
-
-else:
-    print("INVALID COMMAND!")
-
+print("current version: ", current_version)
 # DECLARING THE PASSGEN VARIABLE AS AN EMPTY LIST!
 passgen = []
 
