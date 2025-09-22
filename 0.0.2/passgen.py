@@ -10,6 +10,9 @@ print(a)
 current_version = "0.0.2"
 
 print("current version: ", current_version)
+print("\nUPDATES:  THIS IS THE 0.0.2 VERSION OF THE PASSGEN PROGRAM!"
+"\n)- YOU CAN VIEW THE LENGTH THAT THE USER HAVE CHOSEN TO GENERATE THE PASSWORD"
+"\n)- YOU CAN SAVE THE GENERATED FILE BY NAMING IT\n\n")
 
 while True:
     # DECLARING THE PASSGEN VARIABLE AS AN EMPTY LIST!
@@ -32,7 +35,7 @@ while True:
         print("[*] ERROR THE MINIMUM LENGTH MUST BE AT LEAST 8")
         time.sleep(5)
         length = 8
-    
+
     for temp in range(length - 3):
         passgen.append(random.choice(all_char))
 
